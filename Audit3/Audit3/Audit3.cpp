@@ -29,7 +29,7 @@ int main()
 	int i, mn = sizeof(m) / sizeof(int);
 	for (i = 0; i < mn; ++i, ++pi)
 	{
-		printf("%c%c", *pi, (i + 1) % COLS ? '\0' : '\n');
+		printf("%d%c", *pi, (i + 1) % COLS ? '\0' : '\n');
 	}
 
 	return 0;
